@@ -1,0 +1,137 @@
+@media (max-width: 1399.98px){
+    
+}
+@media (max-width: 1199.98px){
+    .header__content-description{
+        flex-direction: column;
+    }
+    .header__content-img,
+    .header__content-text{
+        position: static;
+    }
+    .header__content-img{
+        max-width: 1043px;
+        width: 100%;
+        padding: 0 15px;
+        margin: 50px 0;
+    }
+    .content__macbook-img{
+        width: 100%;
+    }
+    .prices{
+        padding: 0 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .prices__card{
+        margin-bottom: 20px;
+    }
+    .header__content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-content{
+        padding: 50px 15px 24px;
+    }
+    .header__nav{
+        margin-top: 40px;
+    }
+    .footer{
+        padding: 130px 15px;
+    }
+}
+@media (max-width: 991.98px){
+    .testimonials{
+        padding: 0 15px;
+    }
+    .header__nav,
+    .header__content-menu,
+    .registration{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+    .header__content{
+        position: relative;
+        justify-content: space-between;   
+    }
+    .header__nav{
+        position: absolute; 
+        top: 148px;
+        right: 0;
+        max-width: 100%;
+        height: 0;
+        background-color: #252b42c4;
+        overflow: hidden;
+        transition: 0.5s;
+        margin: 0;
+    }
+    #cheked:checked + .header__nav{
+        height: 464px;
+    }
+    label{
+        display: block;
+    }
+    .registration-btn{
+        margin: 20px 0;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+    }
+    .footer__autors{
+        align-items: center;
+    }
+    .footer__maps{
+        margin: 30px 0;
+    }
+    .header__content-text{
+        text-align: center;
+    }
+}
+@media (max-width: 767.98px){
+    .cards{
+        padding: 45px;
+        justify-content: center;
+    }
+    .section__card-information{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section__card-titel{
+        margin: 0 15px 61px;
+    }
+    .header__content-text{
+        margin: 0;
+    }
+    .form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .form .contacts{
+        margin-top: 60px;
+    }
+    .header__nav {
+        margin: 0;
+    }
+}
+@media (max-width: 575.98px){
+    .form .contacts{
+        margin: 60px 0;
+    }
+    .prices__btn{
+        padding: 22px 64.5px;
+    }
+    .footer{
+        padding: 40px 15px;
+    }
+    .header__nav{
+        width: 100%;
+        margin-top: 0;
+        top: 132px;
+    }
+    .header__content-subtitel{
+        margin: 17px 15px 70px;
+    }
+}
